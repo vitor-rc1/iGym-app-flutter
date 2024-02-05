@@ -1,4 +1,4 @@
-extension DSSpacing on double {
+class DSSpacing {
   /// 1.0
   static const double xxxxs = 1.0;
 
