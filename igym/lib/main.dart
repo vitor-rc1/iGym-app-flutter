@@ -32,14 +32,14 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Scaffold(
+      home: const Scaffold(
         body: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(DSSpacing.xxl),
+              padding: EdgeInsets.all(DSSpacing.xxl),
               child: Text(
                 'Hello, World!',
-                style: const TextStyle(color: Colors.amberAccent).titleBold,
+                style: TextStyle(color: DSColor.dark_01_20),
               ),
             ),
           ],
