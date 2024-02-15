@@ -2,6 +2,8 @@ name: design_system
 description: "A new Flutter module project."
 version: 1.0.0+1
 
+publish_to: none
+
 environment:
   sdk: '>=3.2.6 <4.0.0'
 
